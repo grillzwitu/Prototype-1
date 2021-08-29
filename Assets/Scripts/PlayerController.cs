@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    private float speed = 10.0f; //adjust vehicle speed
+    private float speed = 15.0f; //adjust vehicle speed
     private float turnSpeed = 25.0f; //turn right or left
     private float horizontalInput;  //control turning left or right using player input
     private float forwardInput;//control vehicle speed uisng player input
